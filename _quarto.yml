@@ -1,0 +1,25 @@
+project:
+  type: book
+  resources:
+    - staticwebapp.config.json
+
+book:
+  title: "static_quarto"
+  author: "Norah Jones"
+  date: "2/23/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
